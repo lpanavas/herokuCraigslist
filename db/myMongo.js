@@ -1,8 +1,8 @@
 const MongoClient = require("mongodb").MongoClient;
 const dotenv = require("dotenv").config();
-const mongoURL =
-  "mongodb+srv://lpanavas:Password1@cluster0.b9bcp.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const mongoURL = process.env.mongoURL;
 console.log("===== Connecting to DB ... =====", mongoURL);
+
 var ObjectId = require("mongodb").ObjectId;
 function myDB() {
   const database = {};
