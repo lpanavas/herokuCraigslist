@@ -2,7 +2,7 @@
   "name": "herokuCraigslist",
   "version": "0.0.0",
   "private": true,
-  "main": "./bin/www",
+ 
   "scripts": {
     "start": "node ./bin/www",
     "serverstart": "npm start",
