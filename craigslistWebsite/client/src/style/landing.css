@@ -1,0 +1,12 @@
+.allLanding {
+  height: 100vh;
+  background-image: url(https://www.dailydreamdecor.com/wp-content/uploads/2020/03/cozy-studio-apartment-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.landingNavBar {
+  background-color: rgba(255, 255, 255, 1);
+  opacity: 0.5;
+}

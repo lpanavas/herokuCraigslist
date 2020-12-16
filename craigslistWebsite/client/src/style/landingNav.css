@@ -1,0 +1,11 @@
+.landingNavBar {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.landingNavBar-header {
+  font-family: "Bradley Hand ITC", sans-serif;
+  font-weight: 900;
+}
+.navLogo {
+  height: 2rem;
+  padding-right: 1rem;
+}

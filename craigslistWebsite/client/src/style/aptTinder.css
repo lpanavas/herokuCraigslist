@@ -1,0 +1,65 @@
+.cardViewStyle {
+  margin: 2rem;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.imageStyle {
+  width: 60%;
+  /* height: 80%; */
+  max-height: 40rem;
+}
+
+.tinderBody {
+  width: 75%;
+  margin: auto;
+  display: inline-block;
+}
+.makeInline {
+  display: inline-block;
+}
+
+.buttonLeft {
+  display: inline-block;
+  background-color: white;
+  border: none;
+  margin-left: 3%;
+}
+.buttonLeft:focus {
+  outline: 0;
+}
+.buttonRight:focus {
+  outline: 0;
+}
+
+.buttonRight {
+  display: inline-block;
+  background-color: white;
+  border: none;
+  margin-left: 3%;
+}
+.buttonLeft:hover {
+  background-color: white;
+  border-color: white;
+}
+.buttonRight:hover {
+  background-color: white;
+  border-color: white;
+}
+.likeButton {
+  display: inline-block;
+  height: 4rem;
+}
+
+.likeButton:hover {
+  background-color: rgb(245, 244, 244);
+  border-radius: 40px;
+}
+
+.likeButton:hover:after {
+  background-color: rgb(255, 255, 255);
+}
+
+.cardText {
+  max-height: 15rem;
+  overflow: auto;
+}

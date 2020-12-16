@@ -1,0 +1,63 @@
+/* Array */
+/* ["558402","C2B4A5","CBFE21","43322A","558402"] */
+/* 
+--avocado: #558402ff;
+--pale-silver: #C2B4A5ff;
+--electric-lime: #CBFE21ff;
+--bistre: #43322Aff;
+--avocado-2: #558402ff; */
+
+/* $avocado: rgba(85, 132, 2, 1);
+$pale-silver: rgba(194, 180, 165, 1);
+$electric-lime: rgba(203, 254, 33, 1);
+$bistre: rgba(67, 50, 42, 1);
+$avocado-2: rgba(85, 132, 2, 1); */
+.loginBackground {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.loginBackground-left {
+  width: 50%;
+  min-width: 15em;
+  padding-top: 2em;
+  padding-bottom: 8em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(131, 130, 79, 0.9);
+}
+.loginBackground-right {
+  display: block;
+  /* vertical-align: middle; */
+  width: 50%;
+  min-width: 15em;
+  overflow: hidden;
+  padding-top: 8em;
+  padding-bottom: 8em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #2b2a32;
+}
+.loginBackgroundLogo {
+  /* height: 70%; */
+  max-width: 70%;
+  max-height: 70%;
+}
+header {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: bold;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+.description {
+  color: rgba(255, 255, 255, 0.9);
+  padding-right: 1rem;
+  padding-left: 1rem;
+}

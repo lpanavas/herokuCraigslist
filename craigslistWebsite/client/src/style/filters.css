@@ -1,0 +1,5 @@
+.filters {
+  border: 2px;
+  z-index: 2;
+  display: inline-block;
+}

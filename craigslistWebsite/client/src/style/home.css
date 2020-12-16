@@ -1,0 +1,20 @@
+.homeBackground {
+  /* background-color: rgba(131, 130, 79, 0.9); */
+  /* height: 350vh;
+  background-image: url(https://cdn.shopify.com/s/files/1/1046/6324/products/lifetyles_1024x1024.jpeg?v=1579949306);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  /* background: rgb(131, 130, 79);
+  background: linear-gradient(
+    237deg,
+    rgba(131, 130, 79, 0.3309698879551821) 44%,
+    rgba(177, 198, 201, 1) 100%
+  ); */
+  background: rgb(131, 130, 79);
+  background: linear-gradient(
+    142deg,
+    rgba(131, 130, 79, 0.3309698879551821) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
